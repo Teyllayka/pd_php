@@ -25,6 +25,7 @@ class CourseController extends Controller
 
         $course = new Course($validated);
 
+
         $course->save();
 
 
